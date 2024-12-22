@@ -241,93 +241,66 @@
 <!-- /Hero Section -->
 
 <section id="Story" class="about section bg-light py-5">
-<div class="container py-5">
-  <!-- Our Story Section -->
-  <div class="text-center mb-5">
-    <h2 class="fw-bold display-5 text-primary">Our Story</h2>
-    <p class="lead text-muted">
-      Founded in 2010, <strong>Dreamday Event Planner</strong> has grown into a trusted name in event planning, known for exceptional service and attention to detail.
-    </p>
-  </div>
-
-  <!-- Meet Our Dedicated Team Section -->
-  <div class="row align-items-center g-5">
-    <!-- Text Section -->
-    <div class="col-lg-6">
-      <h2 class="fw-bold display-6 text-primary mb-4">Meet Our Dedicated Team</h2>
-      <p class="text-muted fs-5">
-        Dreamday Event Planner has been serving exceptional catering and event planning services since 2010. Our mission is to create unforgettable experiences, ensuring every detail is perfect for our clients. We pride ourselves on quality, creativity, and customer satisfaction.
+  <div class="container py-5">
+    <!-- Our Story Section -->
+    <div class="text-center mb-5">
+      <h2 class="fw-bold display-5 text-primary">Our Story</h2>
+      <p class="lead text-muted">
+        Founded in 2010, <strong>Dreamday Event Planner</strong> has grown into a trusted name in event planning, known for exceptional service and attention to detail.
       </p>
-      <div class="row mt-4">
-        <div class="col-sm-6 mb-3">
-          <div class="bg-light p-3 rounded shadow-sm text-center">
-            <h5 class="fw-bold text-primary counter" data-target="14">0</h5>
-            <p class="mb-0 text-muted">Years of experience in catering and event planning.</p>
-          </div>
-        </div>
-        <div class="col-sm-6 mb-3">
-          <div class="bg-light p-3 rounded shadow-sm text-center">
-            <h5 class="fw-bold text-primary counter" data-target="500">0</h5>
-            <p class="mb-0 text-muted">Successfully executed events that delighted our clients.</p>
-          </div>
-        </div>
-        <div class="col-sm-6 mb-3">
-          <div class="bg-light p-3 rounded shadow-sm text-center">
-            <h5 class="fw-bold text-primary counter" data-target="20">0</h5>
-            <p class="mb-0 text-muted">A passionate team dedicated to making your events memorable.</p>
-          </div>
-        </div>
-        <div class="col-sm-6 mb-3">
-          <div class="bg-light p-3 rounded shadow-sm text-center">
-            <h5 class="fw-bold text-primary counter" data-target="100">0</h5>
-            <p class="mb-0 text-muted">Client satisfaction rate based on feedback and reviews.</p>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
-  
-  <script>
-    // Counter animation script
-    document.addEventListener("DOMContentLoaded", () => {
-      const counters = document.querySelectorAll(".counter");
-      const speed = 200; // Animation speed
-  
-      counters.forEach(counter => {
-        const updateCounter = () => {
-          const target = +counter.getAttribute("data-target");
-          const count = +counter.innerText;
-  
-          const increment = target / speed;
-  
-          if (count < target) {
-            counter.innerText = Math.ceil(count + increment);
-            setTimeout(updateCounter, 20);
-          } else {
-            counter.innerText = target;
-          }
-        };
-  
-        updateCounter();
-      });
-    });
-  </script>
-  
 
-    <!-- Image Section -->
-    <div class="col-lg-6 text-center">
-      <div class="position-relative">
-        <img src="https://10web-site.ai/399/wp-content/uploads/sites/411/2024/12/tenweb_media_0j2Q8opR.webp" 
-             alt="Team Photo" 
-             class="img-fluid rounded shadow-lg">
-        <div class="position-absolute top-50 start-50 translate-middle bg-primary text-white px-3 py-2 rounded">
-          <strong>Our Team</strong>
+    <!-- Meet Our Dedicated Team Section -->
+    <div class="row align-items-center g-5">
+      <!-- Text Section -->
+      <div class="col-lg-6 order-lg-1">
+        <h2 class="fw-bold display-6 text-primary mb-4">Meet Our Dedicated Team</h2>
+        <p class="text-muted fs-5">
+          Dreamday Event Planner has been serving exceptional catering and event planning services since 2010. Our mission is to create unforgettable experiences, ensuring every detail is perfect for our clients. We pride ourselves on quality, creativity, and customer satisfaction.
+        </p>
+        <div class="row mt-4">
+          <div class="col-sm-6 mb-3">
+            <div class="bg-light p-3 rounded shadow-sm text-center">
+              <h5 class="fw-bold text-primary counter" data-target="14">0</h5>
+              <p class="mb-0 text-muted">Years of experience in catering and event planning.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 mb-3">
+            <div class="bg-light p-3 rounded shadow-sm text-center">
+              <h5 class="fw-bold text-primary counter" data-target="500">0</h5>
+              <p class="mb-0 text-muted">Successfully executed events that delighted our clients.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 mb-3">
+            <div class="bg-light p-3 rounded shadow-sm text-center">
+              <h5 class="fw-bold text-primary counter" data-target="20">0</h5>
+              <p class="mb-0 text-muted">A passionate team dedicated to making your events memorable.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 mb-3">
+            <div class="bg-light p-3 rounded shadow-sm text-center">
+              <h5 class="fw-bold text-primary counter" data-target="100">0</h5>
+              <p class="mb-0 text-muted">Client satisfaction rate based on feedback and reviews.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Image Section -->
+      <div class="col-lg-6 text-center order-lg-2">
+        <div class="position-relative">
+          <img src="https://10web-site.ai/399/wp-content/uploads/sites/411/2024/12/tenweb_media_0j2Q8opR.webp" 
+               alt="Team Photo" 
+               class="img-fluid rounded shadow-lg">
+          <div class="position-absolute top-50 start-50 translate-middle bg-primary text-white px-3 py-2 rounded">
+            <strong>Our Team</strong>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 </section>
+
 
 
 
@@ -500,32 +473,32 @@
     
           <div class="col-lg-3 col-md-4">
             <div class="venue-gallery">
-              <a href="https://ddplanner.in/event6.webp" class="glightbox" data-gall="venue-gallery">
-                <img src="https://ddplanner.in/event6.webp" alt="" class="img-fluid uniform-img">
+              <a href="https://10web-site.ai/399/wp-content/uploads/sites/411/2024/12/tenweb_media_a2ToG8qD.webp" class="glightbox" data-gall="venue-gallery">
+                <img src="https://10web-site.ai/399/wp-content/uploads/sites/411/2024/12/tenweb_media_a2ToG8qD.webp" alt="" class="img-fluid uniform-img">
               </a>
             </div>
           </div>
     
           <div class="col-lg-3 col-md-4">
             <div class="venue-gallery">
-              <a href="https://ddplanner.in/event3.avif" class="glightbox" data-gall="venue-gallery">
-                <img src="https://ddplanner.in/event5.webp" alt="" class="img-fluid uniform-img">
+              <a href="https://10web-site.ai/399/wp-content/uploads/sites/411/2024/12/tenweb_media_Hhiv0y5Y.webp" class="glightbox" data-gall="venue-gallery">
+                <img src="https://10web-site.ai/399/wp-content/uploads/sites/411/2024/12/tenweb_media_Hhiv0y5Y.webp" alt="" class="img-fluid uniform-img">
               </a>
             </div>
           </div>
     
           <div class="col-lg-3 col-md-4">
             <div class="venue-gallery">
-              <a href="https://ddplanner.in/event3.avif" class="glightbox" data-gall="venue-gallery">
-                <img src="https://ddplanner.in/event3.avif" alt="" class="img-fluid uniform-img">
+              <a href="https://10web-site.ai/399/wp-content/uploads/sites/411/2024/12/tenweb_media_C8wBinz9.webp" class="glightbox" data-gall="venue-gallery">
+                <img src="https://10web-site.ai/399/wp-content/uploads/sites/411/2024/12/tenweb_media_C8wBinz9.webp" alt="" class="img-fluid uniform-img">
               </a>
             </div>
           </div>
     
           <div class="col-lg-3 col-md-4">
             <div class="venue-gallery">
-              <a href="https://ddplanner.in/event2.webp" class="glightbox" data-gall="venue-gallery">
-                <img src="https://ddplanner.in/event2.webp" alt="" class="img-fluid uniform-img">
+              <a href="https://10web-site.ai/399/wp-content/uploads/sites/411/2024/12/tenweb_media_fFGycEB1.webp" class="glightbox" data-gall="venue-gallery">
+                <img src="https://10web-site.ai/399/wp-content/uploads/sites/411/2024/12/tenweb_media_fFGycEB1.webp" alt="" class="img-fluid uniform-img">
               </a>
             </div>
           </div>
